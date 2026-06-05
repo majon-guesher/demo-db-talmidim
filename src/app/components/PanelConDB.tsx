@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { MAX_TEXT, MAX_NAME, type Message } from "@/app/lib/db";
+import { MAX_TEXT, MAX_NAME, type Message } from "@/app/lib/shared";
 
 export default function PanelConDB() {
   const [messages, setMessages] = useState<Message[]>([]);

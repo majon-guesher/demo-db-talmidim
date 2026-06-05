@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
-import { sql, MAX_TEXT, MAX_NAME, type Message } from "@/app/lib/db";
+import { sql } from "@/app/lib/db";
+import { MAX_TEXT, MAX_NAME, type Message } from "@/app/lib/shared";
 
 // Render dinámico: el GET NUNCA se cachea, siempre lee la base de verdad.
 export const dynamic = "force-dynamic";

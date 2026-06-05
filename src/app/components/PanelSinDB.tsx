@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MAX_TEXT, MAX_NAME } from "@/app/lib/db";
+import { MAX_TEXT, MAX_NAME } from "@/app/lib/shared";
 
 type LocalMsg = { id: number; name: string; text: string };
 
